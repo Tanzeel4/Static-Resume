@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(125, 182, 230);
+    margin: 0;
+    padding: 50px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(206, 94, 94);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(48, 46, 46, 0.1);
+    
+    
+}
+
+.left-section {
+    background-color: rgb(136, 230, 230);
+    color: black;
+    padding: 20px;
+    width: 50%; 
+    text-align: center; 
+    border-right: 5px solid rgb(245, 242, 239); 
+}
+
+.tanzeel-latest {
+    width: 250px;
+    height: 300px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(245, 241, 206); 
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-bottom: 5%;
+}
+
+.right-section {
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    width: 50%; 
+    text-align: left;  
+    
+    border-left: 5px solid rgb(92, 95, 97);  
+} 
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+       background-color: grey;
+
+}
+
+@media only screen and (max-width:600px){
+
+    .left-section{
+        background-color: rgb(171, 176, 179);    
+    }
+
+    .tanzeel-latest {
+        width: 150px;
+        height: 200px;}
+
+
+}
+ 
